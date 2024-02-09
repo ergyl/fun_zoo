@@ -1,0 +1,21 @@
+
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+O
+src/main/java/se/yrgo/Main.java,e\0\e026dbca1918f500ce4ca97069d07f4637d23f37
+Y
+)src/main/java/se/yrgo/animals/Animal.java,a\b\ab468cf38719a07784c56822d98f0d8a79a0814f
+Z
+*src/main/java/se/yrgo/animals/Dolphin.java,7\a\7a00966bb2a5fc36df6a773cd54ffcaa82366fbc
+[
++src/main/java/se/yrgo/animals/Elephant.java,8\e\8e1329cd57705a7b21f2a850f8bc2ac54f4ae0e4
+[
++src/main/java/se/yrgo/animals/Tortoise.java,0\6\06b6ab5c027abd83d5d98fa01fa1e8eb403f4c19
+U
+%src/test/java/se/yrgo/AnimalTest.java,5\a\5abfb0f536cad0a72c40e703ec6009036faabf2a
+V
+&src/test/java/se/yrgo/DolphinTest.java,3\7\37af3ec31551abe8606ace26b157b118ca279072
+W
+'src/test/java/se/yrgo/ElephantTest.java,a\0\a0fad62a2f11f7a1e14bfeeb69ce8c528cf5f9ca
+W
+'src/test/java/se/yrgo/TortoiseTest.java,1\f\1f34fb43ccfae0ebbb487ea4612291170f5b7069
