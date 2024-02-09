@@ -36,8 +36,6 @@ public abstract class Animal {
 
     public abstract String makeSound();
 
-    public abstract String doATrick();
-
     @Override
     public String toString() {
         var animalType = this.getClass().getSimpleName();
