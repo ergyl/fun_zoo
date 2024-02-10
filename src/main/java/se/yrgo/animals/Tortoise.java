@@ -11,6 +11,6 @@ public class Tortoise extends Animal {
 
     @Override
     public String makeSound() {
-        return "grunt grunt squeeeak";
+        return "grunt grunt squeeeak" + "\n";
     }
 }

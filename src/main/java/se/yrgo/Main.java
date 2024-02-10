@@ -20,7 +20,7 @@ public class Main {
         // TODO print information about all our animals
         for (Animal animal : animals){
             System.out.println(animal);
-            animal.makeSound();
+            System.out.println(animal.makeSound());
         }
     }
 }
