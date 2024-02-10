@@ -39,12 +39,11 @@ public abstract class Animal {
     @Override
     public String toString() {
         var animalType = this.getClass().getSimpleName();
-        var newLine = System.lineSeparator();
 
-        return "Animal type: " + animalType + newLine +
-                "Name: " + name + newLine +
-                "Age: " + age + newLine +
-                "Weight: " + weight + " kg" + newLine;
+        return "Animal type: " + animalType + "\n" +
+                "Name: " + name + "\n" +
+                "Age: " + age + "\n" +
+                "Weight: " + weight + " kg" + "\n";
     }
 
 }
