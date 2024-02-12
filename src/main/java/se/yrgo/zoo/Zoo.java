@@ -68,4 +68,12 @@ public class Zoo {
     public int countAnimals() {
         return animals.size();
     }
+
+    @Override
+    public String toString() {
+        return " Zoo: " + name + '\n' +
+                "Address: " + streetAddress + '\'' +
+                ", " + zipCode + '\'' +
+                ", " + country + '\n';
+    }
 }
