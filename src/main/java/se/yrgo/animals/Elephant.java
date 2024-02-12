@@ -11,6 +11,6 @@ public class Elephant extends Animal {
 
     @Override
     public String makeSound() {
-        return null;
+        return "tooot toooooot!";
     }
 }
