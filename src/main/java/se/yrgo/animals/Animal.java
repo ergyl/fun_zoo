@@ -40,6 +40,10 @@ public abstract class Animal implements Comparable<Animal> {
         return weight;
     }
 
+    public void setWeight(double weight){
+        this.weight = weight;
+    }
+
     public abstract String makeSound();
 
     /***
