@@ -22,8 +22,10 @@ public class Tortoise extends Animal {
     }
 
     public String checkWeight(){
-        double weight = getWeight();
-        if(weight > 150){
+        if(this.getWeight() <= 0.7){
+            throw new IllegalArgumentException("I think it might be dead....");
+        }
+        if(this.getWeight() > 150){
             System.out.println(getName() + " needs to go on a diet!");
             return "fat";
         } else {

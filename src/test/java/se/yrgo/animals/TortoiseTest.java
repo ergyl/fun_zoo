@@ -28,9 +28,17 @@ public class TortoiseTest {
     @Test
     public void testCheckWeight(){
         Tortoise tortoiseAboveWeight = new Tortoise("James", 50, Gender.FEMALE, 153); // Weight is above normal
-        Tortoise tortoiseNormalWeight = new Tortoise("James", 50, Gender.FEMALE, 130); // Weight is under normal
+        Tortoise tortoiseNormalWeight = new Tortoise("James", 50, Gender.FEMALE, 30); // Weight is under normal
+        Tortoise tortoiseNoWeight = new Tortoise("James", 50, Gender.FEMALE, 0.5); // Exception test
         assertEquals(tortoiseNormalWeight.checkWeight(), "healthy");
         assertEquals(tortoiseAboveWeight.checkWeight(), "fat");
+
+        try{
+            tortoiseNoWeight.checkWeight();
+            fail("There should be an IllegalArgumentsException here");
+        } catch (IllegalArgumentException ex){
+            System.out.println("Exception was caught!");
+        }
     }
 
 }
