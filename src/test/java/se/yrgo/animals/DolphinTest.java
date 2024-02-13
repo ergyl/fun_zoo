@@ -3,7 +3,6 @@ package se.yrgo.animals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-
 import se.yrgo.animals.Dolphin;
 import se.yrgo.utils.Gender;
 

@@ -17,6 +17,9 @@ public class Elephant extends Animal {
     }
 
     public int getMemoryCapacity() {
+        if (this.getAge() < 0) {
+            throw new IllegalArgumentException("Age cannot be less than 0");
+        }
         if (this.getAge() > 10) {
             return 100;
         } else if (this.getAge() > 40) {
