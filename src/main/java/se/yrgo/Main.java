@@ -14,14 +14,11 @@ public class Main {
         //Insert created animal instances here
         List<Animal> animals = new ArrayList<>();
 
-<<<<<<< HEAD
         // TODO create instances of animals
-        Tortoise galapagosTortoise = new Tortoise("James", 68, 112.65);
+        Tortoise galapagosTortoise = new Tortoise("James", 68, Gender.FEMALE, 123.24);
         galapagosTortoise.makeSound();
         animals.add(galapagosTortoise);
-=======
-        Tortoise galapagosTortoise = new Tortoise("Galapagos tortoise James", 68, Gender.MALE, 112.65);
->>>>>>> zoo-feature
+
 
         Elephant ben = new Elephant("Ben", 25, Gender.MALE, 6191.5);
         Tortoise rebecca = new Tortoise("Rebecca", 40, Gender.FEMALE, 104.4);
@@ -50,6 +47,5 @@ public class Main {
         System.out.println(ZooAction.getZooAnimalCount(theZoo));
 
         System.out.println(ZooAction.getAnimalsToPrint(theZoo));
-
     }
 }
