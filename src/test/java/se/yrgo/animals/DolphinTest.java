@@ -2,8 +2,8 @@ package se.yrgo.animals;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import se.yrgo.animals.animals.Dolphin;
-import se.yrgo.animals.utils.Gender;
+import se.yrgo.animals.Dolphin;
+import se.yrgo.utils.Gender;
 
 public class DolphinTest {
 
