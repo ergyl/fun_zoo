@@ -1,4 +1,4 @@
-package se.yrgo;
+package se.yrgo.animals;
 
 import org.junit.jupiter.api.Test;
 import se.yrgo.animals.Tiger;
