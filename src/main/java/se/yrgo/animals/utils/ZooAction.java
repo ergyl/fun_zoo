@@ -1,7 +1,7 @@
-package se.yrgo.utils;
+package se.yrgo.animals.utils;
 
-import se.yrgo.animals.Animal;
-import se.yrgo.zoo.Zoo;
+import se.yrgo.animals.animals.Animal;
+import se.yrgo.animals.zoo.Zoo;
 
 import java.util.Collections;
 import java.util.HashMap;
