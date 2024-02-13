@@ -1,6 +1,6 @@
-package se.yrgo.zoo;
+package se.yrgo.animals.zoo;
 
-import se.yrgo.animals.Animal;
+import se.yrgo.animals.animals.Animal;
 
 import java.util.*;
 

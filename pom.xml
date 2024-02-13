@@ -25,7 +25,7 @@
                     <archive>
                         <manifest>
                             <mainClass>
-                                se.yrgo.Main
+                                se.yrgo.animals.Main
                             </mainClass>
                         </manifest>
                     </archive>

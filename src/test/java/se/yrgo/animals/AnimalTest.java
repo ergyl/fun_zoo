@@ -1,4 +1,4 @@
-package se.yrgo;
+package se.yrgo.animals;
 
 public class AnimalTest {
 }
