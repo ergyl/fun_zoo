@@ -1,6 +1,6 @@
-package se.yrgo.animals.animals;
+package se.yrgo.animals;
 
-import se.yrgo.animals.utils.Gender;
+import se.yrgo.utils.Gender;
 
 /***
  * @author Älva
