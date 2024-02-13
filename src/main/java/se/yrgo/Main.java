@@ -1,11 +1,12 @@
-package se.yrgo.animals;
+package se.yrgo;
 
-import se.yrgo.animals.animals.Animal;
-import se.yrgo.animals.animals.Elephant;
-import se.yrgo.animals.animals.Tortoise;
-import se.yrgo.animals.utils.Gender;
-import se.yrgo.animals.utils.ZooAction;
-import se.yrgo.animals.zoo.Zoo;
+import se.yrgo.animals.Animal;
+import se.yrgo.animals.Dolphin;
+import se.yrgo.animals.Elephant;
+import se.yrgo.animals.Tortoise;
+import se.yrgo.utils.Gender;
+import se.yrgo.utils.ZooAction;
+import se.yrgo.zoo.Zoo;
 
 import java.util.*;
 
