@@ -2,16 +2,14 @@ package se.yrgo.zoo;
 
 import se.yrgo.animals.Animal;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 public class Zoo {
     private String name;
     private String streetAddress;
     private String zipCode;
     private String country;
-    private List<Animal> animals;
+    private final List<Animal> animals;
 
     public Zoo(String name, String streetAddress, String zipCode, String country) {
         Objects.requireNonNull(name, "Zoo needs a name");
@@ -61,19 +59,11 @@ public class Zoo {
         return animals;
     }
 
-    /***
-     * Method used to retrieve the number of animals are held in the zoo.
-     * @return the number of animals in the list
-     */
-    public int countAnimals() {
-        return animals.size();
-    }
-
     @Override
     public String toString() {
-        return " Zoo: " + name + '\n' +
-                "Address: " + streetAddress + '\'' +
-                ", " + zipCode + '\'' +
+        return "Zoo: " + name + '\n' +
+                "Address: " + streetAddress +
+                ", " + zipCode +
                 ", " + country + '\n';
     }
 }
