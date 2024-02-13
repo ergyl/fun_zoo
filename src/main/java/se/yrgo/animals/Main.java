@@ -30,7 +30,7 @@ public class Main {
         Elephant sheila = new Elephant("Sheila", 11, Gender.FEMALE, 5559.9);
         Elephant pedro = new Elephant("Stefan", 40, Gender.MALE, 6019.6);
         Elephant maude = new Elephant("Maude", 55, Gender.FEMALE, 6193.4);
-
+        Dolphin dolphin = new Dolphin("hera", 12, Gender.MALE, 1404);
         //Create the zoo
         Zoo theZoo = new Zoo("Paradise Zoo", "Lincoln Avenue 199", "1920 KO", "USA");
 
@@ -44,7 +44,8 @@ public class Main {
         ZooAction.addAnimal(theZoo, sheila);
         ZooAction.addAnimal(theZoo, pedro);
         ZooAction.addAnimal(theZoo, maude);
-
+        ZooAction.addAnimal(theZoo, dolphin);
+        
         System.out.println(theZoo);
         System.out.println(ZooAction.getZooAnimalCount(theZoo));
 
