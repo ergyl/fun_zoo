@@ -1,5 +1,7 @@
 package se.yrgo.animals;
 
+import se.yrgo.utils.Gender;
+
 import java.util.Comparator;
 
 /***
@@ -10,6 +12,7 @@ import java.util.Comparator;
 public abstract class Animal implements Comparable<Animal> {
     private String name;
     private int age;
+    private final Gender gender;
     private double weight;
 
     /***
@@ -18,9 +21,10 @@ public abstract class Animal implements Comparable<Animal> {
      * @param age of the animal
      * @param weight of the animal in kilograms (kg)
      */
-    public Animal(String name, int age, double weight) {
+    public Animal(String name, int age, Gender gender, double weight) {
         this.name = name;
         this.age = age;
+        this.gender = gender;
         this.weight = weight;
     }
 
@@ -64,6 +68,7 @@ public abstract class Animal implements Comparable<Animal> {
         return "Animal type: " + animalType + "\n" +
                 "Name: " + name + "\n" +
                 "Age: " + age + "\n" +
+                "Gender: " + gender + "\n" +
                 "Weight: " + weight + " kg" + "\n";
     }
 
