@@ -34,7 +34,7 @@ public class Tortoise extends Animal {
     public boolean hibernate(boolean isWinter){
         if(isWinter){
             System.out.println("Going into hibernation...");
-            return  true;
+            return true;
         } else {
             System.out.println("Not hibernating! Let's enjoy the warmth");
             return false;
