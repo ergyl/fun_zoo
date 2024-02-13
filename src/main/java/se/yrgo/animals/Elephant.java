@@ -23,4 +23,5 @@ public class Elephant extends Animal {
             return 145;
         } else return 80;
     }
+
 }
