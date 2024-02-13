@@ -13,6 +13,10 @@ public class Tiger extends Animal {
         return "Roar";
     }
 
+    /**
+     * Display the current life stage of the tiger
+     * @return the life stage as a String
+     */
     public String getLifeStage() {
         if (getAge() <= 1) {
             return "Newborn";
