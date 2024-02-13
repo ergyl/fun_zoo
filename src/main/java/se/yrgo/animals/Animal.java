@@ -1,6 +1,6 @@
-package se.yrgo.animals.animals;
+package se.yrgo.animals;
 
-import se.yrgo.animals.utils.Gender;
+import se.yrgo.utils.Gender;
 
 import java.util.Comparator;
 
@@ -38,6 +38,10 @@ public abstract class Animal implements Comparable<Animal> {
 
     public double getWeight() {
         return weight;
+    }
+
+    public void setWeight(double weight){
+        this.weight = weight;
     }
 
     public abstract String makeSound();

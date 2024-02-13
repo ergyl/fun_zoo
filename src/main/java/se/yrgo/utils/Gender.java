@@ -1,4 +1,4 @@
-package se.yrgo.animals.utils;
+package se.yrgo.utils;
 
 public enum Gender {
     MALE,

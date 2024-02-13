@@ -1,11 +1,9 @@
-package se.yrgo.animals;
+package se.yrgo;
 
-import se.yrgo.animals.animals.Animal;
-import se.yrgo.animals.animals.Elephant;
-import se.yrgo.animals.animals.Tortoise;
-import se.yrgo.animals.utils.Gender;
-import se.yrgo.animals.utils.ZooAction;
-import se.yrgo.animals.zoo.Zoo;
+import se.yrgo.animals.*;
+import se.yrgo.utils.Gender;
+import se.yrgo.utils.ZooAction;
+import se.yrgo.zoo.Zoo;
 
 import java.util.*;
 
@@ -31,6 +29,8 @@ public class Main {
         Elephant pedro = new Elephant("Stefan", 40, Gender.MALE, 6019.6);
         Elephant maude = new Elephant("Maude", 55, Gender.FEMALE, 6193.4);
         Dolphin dolphin = new Dolphin("hera", 12, Gender.MALE, 1404);
+        Tiger scar = new Tiger("Scar", 40, Gender.MALE, 50);
+        Tiger simba = new Tiger("Simba", 5, Gender.MALE, 10);
         //Create the zoo
         Zoo theZoo = new Zoo("Paradise Zoo", "Lincoln Avenue 199", "1920 KO", "USA");
 
@@ -45,6 +45,8 @@ public class Main {
         ZooAction.addAnimal(theZoo, pedro);
         ZooAction.addAnimal(theZoo, maude);
         ZooAction.addAnimal(theZoo, dolphin);
+        ZooAction.addAnimal(theZoo, scar);
+        ZooAction.addAnimal(theZoo, simba);
         
         System.out.println(theZoo);
         System.out.println(ZooAction.getZooAnimalCount(theZoo));

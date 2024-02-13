@@ -1,6 +1,6 @@
-package se.yrgo.animals.animals;
+package se.yrgo.animals;
 
-import se.yrgo.animals.utils.Gender;
+import se.yrgo.utils.Gender;
 
 /***
  * @author Erik
@@ -14,5 +14,13 @@ public class Elephant extends Animal {
     @Override
     public String makeSound() {
         return "tooot toooooot!";
+    }
+
+    public int getMemoryCapacity() {
+        if (this.getAge() > 10) {
+            return 100;
+        } else if (this.getAge() > 40) {
+            return 145;
+        } else return 80;
     }
 }
