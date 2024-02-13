@@ -21,22 +21,23 @@ public class Tortoise extends Animal {
         setWeight(newWeight);
     }
 
-    public void checkWeight(){
+    public String checkWeight(){
         double weight = getWeight();
         if(weight > 150){
-            System.out.println("Time for a diet!");
-            setWeight(weight - 5);
+            System.out.println(getName() + " needs to go on a diet!");
+            return "fat";
         } else {
-            System.out.println("Weight is normal. Keep on munching!");
+            System.out.println(getName() + "'s weight is normal. Keep on munching!");
+            return "healthy";
         }
     }
 
     public boolean hibernate(boolean isWinter){
         if(isWinter){
-            System.out.println("Going into hibernation...");
+            System.out.println(getName() + " is going into hibernation...");
             return true;
         } else {
-            System.out.println("Not hibernating! Let's enjoy the warmth");
+            System.out.println(getName() + " is not hibernating! Let's enjoy the warmth");
             return false;
         }
     }

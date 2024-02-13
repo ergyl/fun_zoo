@@ -25,5 +25,12 @@ public class TortoiseTest {
         assertEquals(intialWeight + foodWeight, tortoise.getWeight(), 2);
     }
 
+    @Test
+    public void testCheckWeight(){
+        Tortoise tortoiseAboveWeight = new Tortoise("James", 50, Gender.FEMALE, 153); // Weight is above normal
+        Tortoise tortoiseNormalWeight = new Tortoise("James", 50, Gender.FEMALE, 130); // Weight is under normal
+        assertEquals(tortoiseNormalWeight.checkWeight(), "healthy");
+        assertEquals(tortoiseAboveWeight.checkWeight(), "fat");
+    }
 
 }
