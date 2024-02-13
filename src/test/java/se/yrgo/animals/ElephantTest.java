@@ -6,8 +6,10 @@ import se.yrgo.utils.Gender;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
-public class ElephantTest {
-
+/**
+ * @author Erik
+ */
+class ElephantTest {
 
     @Test
     void testGetMemoryCapacity() {

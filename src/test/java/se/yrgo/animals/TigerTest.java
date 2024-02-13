@@ -5,6 +5,10 @@ import se.yrgo.animals.Tiger;
 import se.yrgo.utils.Gender;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+/**
+ * @author Ludvig
+ */
 public class TigerTest {
 
     /**

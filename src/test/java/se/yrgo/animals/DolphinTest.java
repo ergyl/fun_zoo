@@ -6,10 +6,13 @@ import org.junit.jupiter.api.Test;
 import se.yrgo.animals.Dolphin;
 import se.yrgo.utils.Gender;
 
+/**
+ * @author Ludwig
+ */
 public class DolphinTest {
 
     @Test
-    public void testdolphinEats () {
+    public void testdolphinEats() {
         Dolphin age9 = new Dolphin("philips", 9, Gender.MALE, 200);
         assertEquals("squid", age9.dolphinEats());
 
