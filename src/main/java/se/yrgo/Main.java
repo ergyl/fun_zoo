@@ -43,6 +43,5 @@ public class Main {
         System.out.println(ZooAction.getZooAnimalCount(theZoo));
 
         System.out.println(ZooAction.getAnimalsToPrint(theZoo));
-
     }
 }

@@ -13,6 +13,6 @@ public class Dolphin extends Animal {
 
     @Override
     public String makeSound() {
-        return null;
+        return "Clicks whistles";
     }
 }
