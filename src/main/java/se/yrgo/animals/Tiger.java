@@ -2,6 +2,9 @@ package se.yrgo.animals;
 
 import se.yrgo.utils.Gender;
 
+/***
+ * @author Ludvig
+ */
 public class Tiger extends Animal {
 
     public Tiger(String name, int age, Gender gender, double weight) {
