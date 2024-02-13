@@ -12,8 +12,7 @@ public class Main {
         List<Animal> animals = new ArrayList<>();
 
         // TODO create instances of animals
-        Tortoise galapagosTortoise = new Tortoise(
-                "Galapagos tortoise James", 68, 112.65);
+        Tortoise galapagosTortoise = new Tortoise("James", 68, 112.65);
         galapagosTortoise.makeSound();
         animals.add(galapagosTortoise);
 
