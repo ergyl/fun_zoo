@@ -11,16 +11,28 @@ public class Tortoise extends Animal {
         super(name, age, gender, weight);
     }
 
+    /**
+     * generate unique sound for animal
+     * @return sound as string
+     */
     @Override
     public String makeSound() {
         return "grunt grunt squeeeak" + "\n";
     }
 
+    /**
+     * This method adds weight when animal eats
+     * @param foodWeight is how much food the animal eats as well as how much weight should be added
+     */
     public void eat(double foodWeight){
         double newWeight = getWeight() + foodWeight;
         setWeight(newWeight);
     }
 
+    /**
+     * This method checks weight to check it's its heathy, unhealthy or... dead
+     * @return string specifying if it's healthy or fat
+     */
     public String checkWeight(){
         if(this.getWeight() <= 0.7){
             throw new IllegalArgumentException("I think it might be dead....");
@@ -34,6 +46,11 @@ public class Tortoise extends Animal {
         }
     }
 
+    /**
+     * This method checks if animal should/will hibernate
+     * @param isWinter insert true or false if it is winter
+     * @return boolean that specifies if animal went into hibernation(true) or not(false)
+     */
     public boolean hibernate(boolean isWinter){
         if(isWinter){
             System.out.println(getName() + " is going into hibernation...");
